@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>GEN AI</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid header position-relative overflow-hidden p-0">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="display-6 text-primary m-0"><i class="fas fa-envelope me-3"></i>GEN AI</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#learning" class="nav-item nav-link">Learning</a>
+                        <div class="nav-item dropdown">
+                            <a href="#projects" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="jarvis.html" class="dropdown-item">Jarvis AI</a>
+                                <a href="automatic-attendance.html" class="dropdown-item">Automatic attendance</a>
+                            </div>
+                        </div>
+                        <a href="#quiz" class="nav-item nav-link">Quiz</a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Hero Header Start -->
+            <div class="hero-header overflow-hidden px-5" id="home">
+                <div class="rotate-img">
+                    <img src="img/sty-1.png" class="img-fluid w-100" alt="">
+                    <div class="rotate-sty-2"></div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Generative Artificial Intelligence</h1>
+                        <a href="#about" class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Get Started</a>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <img src="img/hero-img-1.png" class="img-fluid w-100 h-100" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Hero Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid overflow-hidden py-5"  style="margin-top: 6rem;" id="about">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="RotateMoveLeft">
+                            <img src="img/about-1.png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h4 class="mb-1 text-primary">About Gen AI</h4>
+                        <h1 class="display-5 mb-4">Get Started Easily And Learn About Gen AI</h1>
+                        <p class="mb-4">Generative artificial intelligence refers to AI systems that can produce text, images, videos, or other types of data by leveraging generative models. These models learn the patterns and structures within their training data and can then create new content that mirrors those characteristics, typically in response to specific prompts.
+                        </p>
+                        <a href="#learning" class="btn btn-primary rounded-pill py-3 px-5">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-5" id="learning">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="mb-1 text-primary">More About Gen AI</h4>
+                    <h1 class="display-5 mb-4">Types of Gen AI</h1>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item text-center rounded p-4">
+                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+                            <div class="service-content">
+                                <h4 class="mb-4">Text Generation</h4>
+                                <p class="mb-4">Text Generation involves using machine learning models to generate new text based on patterns learned from existing text data.
+                                </p>
+                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item text-center rounded p-4">
+                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
+                            <div class="service-content">
+                                <h4 class="mb-4">Image Generation</h4>
+                                <p class="mb-4">Image generation is the process of creating visual content using software and computer algorithms. It's a key aspect of artificial intelligence (AI) and is used in many fields, including computer vision, digital art, and autonomous systems. 
+                                </p>
+                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item text-center rounded p-4">
+                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fa fa-subway fa-5x text-secondary"></i></div>
+                            <div class="service-content">
+                                <h4 class="mb-4">Video and speech Generation</h4>
+                                <p class="mb-4">Video generation is the process of creating video content using artificial intelligence (AI) technologies. AI video generators use machine learning algorithms and computer vision to analyze large amounts of data, such as images, videos, and text, to create visually appealing videos.
+                                </p>
+                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item text-center rounded p-4">
+                            <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+                            <div class="service-content">
+                                <h4 class="mb-4">Face Recognition and generate</h4>
+                                <p class="mb-4">Face recognition is a type of computer vision that uses optical input to identify or group people in images or videos. It works by comparing the faces in two or more images to determine the likelihood of a match. Face recognition systems use artificial intelligence (AI) and deep neural networks to analyze images and create facial signatures.
+                                </p>
+                                <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature overflow-hidden py-5" id="projects">
+            <div class="container py-5">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="text-primary">Projects</h4>
+                    <h1 class="display-5 mb-4">Real life projects regarding GEN AI</h1>
+                </div>
+                <div class="row g-4 justify-content-center text-center mb-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s" style="border: 2px solid black;">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block rounded bg-light p-4 mb-4"><i class="fas fa-envelope fa-5x text-secondary"></i></div>
+                            <div class="feature-content">
+                                <a class="h4">Jarvis AI<i class="fa fa-long-arrow-alt-right"></i></a>
+                                <button style="width: 150px; height: 55px; border-radius: 30px;"><a href="jarvis.html">Know More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s" style="border: 2px solid black;">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block rounded bg-light p-4 mb-4"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+                            <div class="feature-content">
+                                <a class="h4">Automatic Attendance Using Face Recognition<i class="fa fa-long-arrow-alt-right"></i></a>
+                                <button style="width: 150px; height: 55px; border-radius: 30px;"><a href="automatic-attendance.html">Know More</a></button>
+                                <br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+        <!-- Feature End -->
+
+
+<!-- Quiz start -->
+<section class="quiz" id="quiz" style="width: 100%;">
+    <br><br><br><br><br>
+    <div>
+        <body onload="NextQuestion(0)">
+        <main>
+            <!-- creating a modal for when quiz ends -->
+            <div class="modal-container" id="score-modal">
+    
+                <div class="modal-content-container">
+    
+                    <h1>Congratulations, Quiz Completed.</h1>
+    
+                    <div class="grade-details">
+                        <p>Attempts : 10</p>
+                        <p>Wrong Answers : <span id="wrong-answers"></span></p>
+                        <p>Right Answers : <span id="right-answers"></span></p>
+                        <p>Grade : <span id="grade-percentage"></span>%</p>
+                        <p ><span id="remarks"></span></p>
+                    </div>
+    
+                    <div class="modal-button-container">
+                        <button onclick="closeScoreModal()">Continue</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="game-quiz-container">
+    
+                <div class="game-details-container">
+                    <h1>Score : <span id="player-score"></span> / 10</h1>
+                    <h1> Question : <span id="question-number"></span> / 10</h1>
+                </div>
+    
+                <div class="game-question-container">
+                    <h1 id="display-question"></h1>
+                </div>
+    
+                <div class="game-options-container">
+    
+                   <div class="modal-container" id="option-modal">
+    
+                        <div class="modal-content-container">
+                             <h1>Please Pick An Option</h1>
+    
+                             <div class="modal-button-container">
+                                <button onclick="closeOptionModal()">Continue</button>
+                            </div>
+    
+                        </div>
+    
+                   </div>
+    
+                    <span>
+                        <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                        <label for="option-one" class="option" id="option-one-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                        <label for="option-two" class="option" id="option-two-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                        <label for="option-three" class="option" id="option-three-label"></label>
+                    </span>
+    
+    
+                    <span>
+                        <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                        <label for="option-four" class="option" id="option-four-label"></label>
+                    </span>
+    
+    
+                </div>
+    
+                <div class="next-button-container">
+                    <button onclick="handleNextQuestion()">Next Question</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    </section>  
+    <script>
+        const questions = [
+        {
+            question: "What is the most eaten food in USA's culture",
+            optionA: "10 days",
+            optionB: "14 days",
+            optionC: "AI that could do anything",
+            optionD: "AI that can produce various types of content",
+            correctOption: "optionD"
+        },
+    
+        {
+            question: "What is Image generation ?",
+            optionA: "10 players",
+            optionB: "Could generate image on prompt",
+            optionC: "9 players",
+            optionD: "12 players",
+            correctOption: "optionB"    
+        },
+    
+        {
+            question: "What is text/speech Generation ?",
+            optionA: "Donald Trump",
+            optionB: "Barack Obama",
+            optionC: "Abraham Lincoln",
+            optionD: "Can generate and recognize on what we say",
+            correctOption: "optionD"
+        },
+    
+        {
+            question: "What Is face Recognition ?",
+            optionA: "January",
+            optionB: "December",
+            optionC: "June",
+            optionD: "july",
+            correctOption: "optionC"
+        },
+    
+        {
+            question: "What is the functions of GEN AI ?",
+            optionA: "30 hours",
+            optionB: "38 hours",
+            optionC: "48 hours",
+            optionD: "24 hours",
+            correctOption: "optionD"
+        },
+    
+        {
+            question: "What is GEN AI also called as ?",
+            optionA: "Generative AI",
+            optionB: "Geography AI",
+            optionC: "Google AI",
+            optionD: "Graphics AI",
+            correctOption: "optionA"
+        },
+    
+        {
+            question: "What is one of the use of GEN AI",
+            optionA: "Oceania",
+            optionB: "Antarctica",
+            optionC: "Automating solutions using prompt",
+            optionD: "North America",
+            correctOption: "optionC"
+        },
+    
+        {
+            question: "Could Gen AI make a product itself ?",
+            optionA: "Yes! If a prompt is given",
+            optionB: "Yes! Could generate without prompt",
+            optionC: "Maybe",
+            optionD: "No",
+            correctOption: "optionA"
+        },
+    
+        {
+            question: "Which of these numbers is an odd number ?",
+            optionA: "Ten",
+            optionB: "Twelve",
+            optionC: "Eight",
+            optionD: "Eleven",
+            correctOption: "optionD"
+        },
+    
+        {
+            question: `"You Can't see me" is a popular saying by`,
+            optionA: "Eminem",
+            optionB: "Bill Gates",
+            optionC: "Chris Brown",
+            optionD: "John Cena",
+            correctOption: "optionD"
+        },
+    
+    ]
+    
+    
+    let shuffledQuestions = [] 
+    function handleQuestions() {
+        while (shuffledQuestions.length <= 9) {
+            const random = questions[Math.floor(Math.random() * questions.length)]
+            if (!shuffledQuestions.includes(random)) {
+                shuffledQuestions.push(random)
+            }
+        }
+    }
+    
+    
+    let questionNumber = 1 
+    let playerScore = 0 
+    let wrongAttempt = 0 
+    let indexNumber = 0 
+    
+    function NextQuestion(index) {
+        handleQuestions()
+        const currentQuestion = shuffledQuestions[index]
+        document.getElementById("question-number").innerHTML = questionNumber
+        document.getElementById("player-score").innerHTML = playerScore
+        document.getElementById("display-question").innerHTML = currentQuestion.question;
+        document.getElementById("option-one-label").innerHTML = currentQuestion.optionA;
+        document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
+        document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
+        document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
+    
+    }
+    
+    
+    function checkForAnswer() {
+        const currentQuestion = shuffledQuestions[indexNumber] 
+        const currentQuestionAnswer = currentQuestion.correctOption 
+        const options = document.getElementsByName("option"); 
+        let correctOption = null
+    
+        options.forEach((option) => {
+            if (option.value === currentQuestionAnswer) {
+                correctOption = option.labels[0].id
+            }
+        })
+    
+        if (options[0].checked === false && options[1].checked === false && options[2].checked === false && options[3].checked == false) {
+            document.getElementById('option-modal').style.display = "flex"
+        }
+    
+        options.forEach((option) => {
+            if (option.checked === true && option.value === currentQuestionAnswer) {
+                document.getElementById(correctOption).style.backgroundColor = "green"
+                playerScore++ 
+                indexNumber++ 
+                setTimeout(() => {
+                    questionNumber++
+                }, 1000)
+            }
+    
+            else if (option.checked && option.value !== currentQuestionAnswer) {
+                const wrongLabelId = option.labels[0].id
+                document.getElementById(wrongLabelId).style.backgroundColor = "red"
+                document.getElementById(correctOption).style.backgroundColor = "green"
+                wrongAttempt++ //adds 1 to wrong attempts 
+                indexNumber++
+                //set to delay question number till when next question loads
+                setTimeout(() => {
+                    questionNumber++
+                }, 1000)
+            }
+        })
+    }
+    
+    
+    
+    function handleNextQuestion() {
+        checkForAnswer() 
+        unCheckRadioButtons()
+       
+        setTimeout(() => {
+            if (indexNumber <= 9) {
+                NextQuestion(indexNumber)
+            }
+            else {
+                handleEndGame()
+            }
+            resetOptionBackground()
+        }, 1000);
+    }
+    
+    function resetOptionBackground() {
+        const options = document.getElementsByName("option");
+        options.forEach((option) => {
+            document.getElementById(option.labels[0].id).style.backgroundColor = ""
+        })
+    }
+    
+    function unCheckRadioButtons() {
+        const options = document.getElementsByName("option");
+        for (let i = 0; i < options.length; i++) {
+            options[i].checked = false;
+        }
+    }
+    
+    function handleEndGame() {
+        let remark = null
+        let remarkColor = null
+    
+        if (playerScore <= 3) {
+            remark = "Bad Grades, Keep Practicing."
+            remarkColor = "red"
+        }
+        else if (playerScore >= 4 && playerScore < 7) {
+            remark = "Average Grades, You can do better."
+            remarkColor = "orange"
+        }
+        else if (playerScore >= 7) {
+            remark = "Excellent, Keep the good work going."
+            remarkColor = "green"
+        }
+        const playerGrade = (playerScore / 10) * 100
+    
+        //data to display to score board
+        document.getElementById('remarks').innerHTML = remark
+        document.getElementById('remarks').style.color = remarkColor
+        document.getElementById('grade-percentage').innerHTML = playerGrade
+        document.getElementById('wrong-answers').innerHTML = wrongAttempt
+        document.getElementById('right-answers').innerHTML = playerScore
+        document.getElementById('score-modal').style.display = "flex"
+    
+    }
+    
+    function closeScoreModal() {
+        questionNumber = 1
+        playerScore = 0
+        wrongAttempt = 0
+        indexNumber = 0
+        shuffledQuestions = []
+        NextQuestion(indexNumber)
+        document.getElementById('score-modal').style.display = "none"
+    }
+    
+    
+    function closeOptionModal() {
+        document.getElementById('option-modal').style.display = "none"
+    }
+    </script>
+    </div>
+    <style>    
+/* quiz css */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html, body{
+        height: 100%;
+    }
+    
+    
+    body{
+        font-family: 'Montserrat', serif;
+    
+    }
+    
+    main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        background: url('../assets/background_image.jpg');
+        background-color : white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .game-quiz-container{
+        width: 75rem;
+        height: 30rem;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 30px;
+    }
+    
+    .game-details-container{
+        width: 90%;
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .game-details-container h1{
+        font-size: 1.2rem;
+    }
+     
+    .game-question-container{
+        width: 90%;
+        height: 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid darkgray;
+        border-radius: 25px;
+    }
+    
+    .game-question-container h1{
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 3px;
+    }
+    
+    .game-options-container{
+        width: 90%;
+        height: 12rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .game-options-container span{
+        width: 45%;
+        height: 3rem;
+        border: 2px solid darkgray;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    span label{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.3s;
+        font-weight: 600;
+        color: rgb(22, 22, 22);
+    }
+    
+    span label:hover{
+        -ms-transform: scale(1.12);
+        -webkit-transform: scale(1.12);
+        transform: scale(1.12);
+        color: black;
+    }
+    
+    input[type="radio"] {
+        position: relative;
+        display: none;
+    }
+    
+    
+    input[type=radio]:checked ~ .option {
+        background: black;
+        color: white;
+    }
+    
+    .next-button-container{
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .next-button-container button{
+        width: 8rem;
+        height: 2rem;
+        border-radius: 10px;
+        background: none;
+        color: rgb(25, 25, 25);
+        font-weight: 600;
+        border: 2px solid gray;
+        cursor: pointer;
+        outline: none;
+    }
+    .next-button-container button:hover{
+        background-color: rgb(143, 93, 93);
+    }
+    
+    .modal-container{
+        display: none;
+        position: fixed;
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4); 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        -webkit-animation: fadeIn 1.2s ease-in-out;
+        animation: fadeIn 1.2s ease-in-out;
+    }
+    
+    .modal-content-container{
+        height: 20rem;
+        width: 25rem;
+        background-color: rgb(43, 42, 42);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 25px;
+    }
+    
+    .modal-content-container h1{
+        font-size: 1.3rem;
+        height: 3rem;
+        color: lightgray;
+        text-align: center;
+    }
+    
+    .grade-details{
+        width: 15rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .grade-details p{
+        color: white;
+        text-align: center;
+    }
+    
+    .modal-button-container{
+        height: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .modal-button-container button{
+        width: 10rem;
+        height: 2rem;
+        background: none;
+        outline: none;
+        border: 1px solid rgb(252, 242, 241);
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .modal-button-container button:hover{
+        background-color: rgb(83, 82, 82);
+    }
+    
+    @media(min-width : 300px) and (max-width : 350px){
+        .game-quiz-container{
+            width: 90%;
+            height: 80vh;
+         }
+         .game-details-container h1{
+            font-size: 0.8rem;
+         }
+    
+         .game-question-container{
+            height: 6rem;
+         }
+         .game-question-container h1{
+           font-size: 0.9rem;
+        }
+    
+        .game-options-container span{
+            width: 90%;
+            height: 2.5rem;
+        }
+        .game-options-container span label{
+            font-size: 0.8rem;
+        }
+        .modal-content-container{
+            width: 90%;
+            height: 25rem;
+        }
+    
+        .modal-content-container h1{
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media(min-width : 350px) and (max-width : 700px){
+       .game-quiz-container{
+           width: 90%;
+           height: 80vh;
+        }
+         .game-details-container h1{
+            font-size: 1rem;
+        }
+    
+        .game-question-container{
+            height: 8rem;
+        }
+    
+        .game-question-container h1{
+            font-size: 0.9rem;
+         }
+    
+        .game-options-container span{
+            width: 90%;
+        }
+        .modal-content-container{
+            width: 90%;
+            height: 25rem;
+        }
+        .modal-content-container h1{
+            font-size: 1.2rem;
+        }
+    }
+    
+    
+    
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+      }
+    
+      @-webkit-keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+
+
+
+      .form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 15vh;
+    }
+    .leftside{
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+    .leftside img{
+        width: 80%;
+        height: auto;
+    }
+    .leftside h1{
+        font-size: 50px;
+        color: white;
+        padding: 20px 0px;
+    }
+    .rightside{
+        width: 50%;
+        height: auto;
+    }h2{
+        text-align: center;
+        color: #002793;
+        font-size: 45px;
+    }
+    .input-container{
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+    .input{
+        width: 100%;
+        margin-top: 25px;
+        height: 50px;
+        padding: 10px 20px;
+        background-color: #dedde4;
+        align-items: center;
+    }
+    input{
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 70%;
+        line-height:30px;
+        font-size: 15px;
+    }
+    i{
+        opacity: 50%;
+    }
+    .login{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        background-color: #002793;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    p{
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .social-items{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .social-items a{
+        display: inline-block;
+        text-decoration: none;
+        height: 40px;
+        width: 40px;
+        border: 1px solid #002793;
+        margin: 0px 10px;
+    }
+    a i{
+        color: #002793;
+        opacity: 100%;
+    }
+    a .fa{
+        line-height: 40px;
+    }
+    h6{
+        text-align: center;
+        margin:60px 0px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    span{
+        text-decoration: underline;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    a:hover i{
+        color: red;
+    }
+    
+    
+    /*------------Responsive--------------*/
+    @media screen and (max-width:768px){
+        .leftside{
+            display: none;
+        }
+        .rightside{
+            width: 100%;
+        }
+    }
+    </style>
+<!-- quiz end -->
+
+
+        <!-- Back to Top -->
+        <a href="#home" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
